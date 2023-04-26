@@ -1,0 +1,50 @@
+.lead__caption {
+    margin: 0;
+    padding:0;
+    margin-top: 8px;
+    align-self: flex-start;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1366px) {
+    .lead__caption {
+        font-size: 9px;
+    }
+}
+    
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+        font-size: 8px;
+    }
+    .lead__subtitle {
+        font-size: calc(1.5vw + 12px);
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        font-size: 7px;
+    }
+    .lead__subtitle {
+        font-size: calc(1.2vw + 10px);
+        max-width: calc(100% - 24px);
+        margin: 16px;
+    }
+}
+    
+@media screen and (max-width: 480px) {
+    .lead__caption {
+        font-size: 6px;
+    }
+    .lead__subtitle {
+        max-width: calc(100% - 16px);
+        font-size: calc(0.8vw + 8px);
+        margin: 12px;
+    }
+}
