@@ -1,6 +1,27 @@
 .lead__image {
-  margin: auto;
+  margin: 0 148px 0 148px;
   padding-top: 64px;
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .lead__image{
+    margin: 0 48px 0 48px;
+    padding-top:56px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__image {
+    padding-top:56px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .lead__image {
+    padding-top:40px;
+    width: 100%;
+  }
 }
