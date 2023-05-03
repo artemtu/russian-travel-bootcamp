@@ -32,5 +32,13 @@
 @import url('/blocks/place/__paragraphs/-paragraph/place__paragraphs-paragraph_second.css');
 
 
+@import url('/blocks/cover/cover.css');
+@import url('/blocks/cover/__link/cover__link.css');
+@import url('/blocks/cover/__title/cover__title.css');
+@import url('/blocks/cover/__subtitle/cover__subtitle.css');
+
+
+
+
 
 
