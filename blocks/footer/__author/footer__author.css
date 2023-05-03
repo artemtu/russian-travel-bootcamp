@@ -1,0 +1,11 @@
+.footer__author {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #ffffff;
+  }
+  
