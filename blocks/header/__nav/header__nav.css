@@ -1,6 +1,5 @@
 .header__nav {
     display: flex;
     align-self: flex-end;
-    gap: 18px;
 }
 

@@ -3,10 +3,6 @@
   grid-column: 1;
   grid-row-start: 2;
   margin: 0;
+  object-fit: cover;
 }
 
-@media (max-width: 480px) {
-  .place__image {
-    max-width: none;
-  }
-}
