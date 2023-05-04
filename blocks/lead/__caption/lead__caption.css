@@ -12,14 +12,17 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 955px) {
+
+
+@media (max-width: 768px) {
   .lead__caption {
     margin-left: 24px;
   }
 }
 
-@media screen and (max-width: 769px) {
+@media (max-width: 480px) {
   .lead__caption {
-    margin-left: 16px;
+    margin-left: 24px;
   }
 }
+

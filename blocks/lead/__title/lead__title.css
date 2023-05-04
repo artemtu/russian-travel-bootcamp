@@ -10,32 +10,3 @@
     line-height: 104%;
 }
 
-@media screen and (max-width: 1366px) {
-    .lead__title {
-        font-size: calc(6vw + 32px);
-        max-width: calc(100% - 96px);
-    }
-}
-    
-@media screen and (max-width: 1024px) {
-    .lead__title {
-        font-size: calc(5vw + 28px);
-        max-width: calc(100% - 96px);
-    }
-}
-    
-@media screen and (max-width: 768px) {
-    .lead__title {
-        font-size: calc(4vw + 24px);
-        max-width: calc(100% - 48px);
-        margin: 24px;
-    }
-}
-    
-@media screen and (max-width: 480px) {
-    .lead__title {
-        max-width: calc(100% - 32px);
-        font-size: calc(3.5vw + 16px);
-        margin: 16px;
-    }
-}
