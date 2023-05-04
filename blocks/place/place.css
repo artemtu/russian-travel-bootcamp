@@ -1,7 +1,29 @@
 .place {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 40px;
-    row-gap: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+@media (max-width: 480px) {
+  .place {
+    display: flex;
+    flex-direction: column-reverse;
   }
-  
+
+  .place__title {
+    order: 4;
+  }
+
+  .place__website {
+    order: 3;
+  }
+
+  .place__image {
+    order: 2;
+  }
+
+  .place__paragraphs {
+    order: 1;
+  }
+}
