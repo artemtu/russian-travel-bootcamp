@@ -1,4 +1,4 @@
-.place__paragraphs-paragraph_first {
+.place__paragraphs-top {
   margin: 0;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -9,13 +9,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .place__paragraphs-paragraph_second {
+  .place__paragraphs-top {
     font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  .place__paragraphs-paragraph_second {
+  .place__paragraphs-top {
     font-size: 16px;
   }
 }
