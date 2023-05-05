@@ -13,5 +13,6 @@
   .place__website {
     align-self: flex-start;
     justify-self: start;
+    margin: 0 16px;
   }
 }

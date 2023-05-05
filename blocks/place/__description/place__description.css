@@ -4,3 +4,9 @@
     margin: 0;
     flex-direction: column;
   }
+
+  @media only screen and (max-width: 320px) {
+    .place__description {
+      margin:0 16px;
+    }
+  }
