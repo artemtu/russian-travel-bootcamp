@@ -4,15 +4,12 @@
   justify-content: space-between;
   align-items: flex-end;
   margin: auto;
+  margin-left: 48px;
+  margin-right: 48px;
   margin-top: 92px;
 }
 
-@media screen and (max-width: 1184px) {
-  .footer {
-    margin-left: 48px;
-    margin-right: 48px;
-  }
-}
+
 
 @media screen and (max-width: 768px) {
   .footer {
