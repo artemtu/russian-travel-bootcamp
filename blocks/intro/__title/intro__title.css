@@ -10,30 +10,11 @@
   }
 
 
-  @media screen and (max-width: 1024px) {
-    .intro__title {
-      max-width: calc(1024px - 96px);
-      margin-top: 32px;
-      font-size: 48px;
-      line-height: 100%;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .intro__title {
-      max-width: calc(768px - 96px);
-      margin-top: 24px;
-      font-size: 42px;
-      line-height: 100%;
-    }
-  }
-  
+
   @media screen and (max-width: 480px) {
     .intro__title {
-      max-width: calc(480px - 32px);
-      margin-top: 16px;
-      font-size: 36px;
-      line-height: 100%;
+      font-size: 32px;
+      line-height: 109%;
     }
   }
   
