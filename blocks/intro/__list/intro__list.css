@@ -11,6 +11,8 @@
     list-style-type: none;
     color: #FFFFFF;
   }
+
+
   
   @media screen and (max-width: 1024px) {
     .intro__list {
@@ -39,11 +41,3 @@
     }
   }
   
-  @media screen and (min-width: 1280px) {
-    .intro__list {
-      max-width: 690px;
-      margin-top: 48px;
-      font-size: 12px;
-      line-height: 18px;
-    }
-  }

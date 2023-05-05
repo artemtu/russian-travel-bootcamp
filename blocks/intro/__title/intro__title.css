@@ -8,7 +8,8 @@
     line-height: 107%;
     color: #ffffff;
   }
-  
+
+
   @media screen and (max-width: 1024px) {
     .intro__title {
       max-width: calc(1024px - 96px);
@@ -36,10 +37,3 @@
     }
   }
   
-  @media screen and (min-width: 1280px) {
-    .intro__title {
-      max-width: 690px;
-      font-size: 54px;
-      line-height: 107%;
-    }
-  }
