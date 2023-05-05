@@ -11,7 +11,7 @@
 
   
   .place__website-link:hover {
-    opacity: 30%;
+    opacity: 80%;
     transition: 0.5s;
     
   }
