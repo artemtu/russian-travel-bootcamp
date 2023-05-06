@@ -10,7 +10,7 @@
   row-gap: 12px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .place__website {
     align-self: flex-start;
     justify-self: start;
