@@ -3,8 +3,6 @@
   display: flex;
   justify-content: center;
   list-style-type: none;
+  gap: 18px;
 }
 
-.header__list li {
-  margin-right: 18px;
-}
