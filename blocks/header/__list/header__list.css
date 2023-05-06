@@ -1,7 +1,9 @@
-.header__nav {
+.header__list {
   display: flex;
   justify-content: center;
   list-style-type: none;
 }
 
-
+.header__list li {
+  margin-right: 18px;
+}
